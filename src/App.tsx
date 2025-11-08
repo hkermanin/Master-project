@@ -7,6 +7,7 @@ import Register from "./components/register/Register"
 import About from "./components/contact/About"
 import Contact from "./components/contact/Contact"
 import Buy from "./components/buy/Buy"
+import CourseDetail from "./components/home/CourseDetail"
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/card" element={<Buy/>}/>
+        <Route path="/card/:courseId" element={<CourseDetail/>}/>
       </Routes>
       </main>
 
