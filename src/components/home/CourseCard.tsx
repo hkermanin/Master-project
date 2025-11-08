@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'; // برای لینک دادن به صف
 const CourseCard = ({ course }) => {
     // تخریب (Destructuring) props برای استفاده راحت‌تر
     const { id, title, instructor, rating, price, imageUrl } = course;
+    console.log(course)
 
     return (
         // کارت دوره با افکت سایه هنگام هاور
